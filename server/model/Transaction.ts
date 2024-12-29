@@ -63,8 +63,8 @@ export class Transaction {
 
             return updatedTransaction;
         }, {
-            maxWait: 20000,  // Meningkatkan timeout menjadi 20 detik
-            timeout: 20000 // Menambah timeout secara eksplisit
+            maxWait: 25000,  // Meningkatkan timeout menjadi 20 detik
+            timeout: 25000 // Menambah timeout secara eksplisit
         });
     };
 
